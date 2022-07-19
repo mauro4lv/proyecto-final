@@ -1,0 +1,52 @@
+.carousel-inner img {
+    max-height: 700px;
+}
+
+.site-footer {
+    height: 150px;
+}
+
+.iconos {
+    font-size: 50px;
+}
+
+.contenido {
+    background-color: gold;
+    border-radius: 5px;
+    animation-name: inicio1;
+    animation-duration: 1s;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+}
+
+
+
+.acciones {
+    animation-name: inicio2;
+    animation-duration: 1s;
+    position: relative;
+    border-radius: 5px;
+}
+
+.body1 {
+font-family: 'koulen', cursive;
+background-image: url(../assets/img/avion4.jpg);
+background-position: center;
+background-size: cover;
+}
+
+body    {
+font-family: 'koulen', cursive;
+}
+
+@keyframes inicio1 {
+0% {left: -200px;}
+100% {left: 0;}
+
+}
+
+@keyframes inicio2 {
+0% {bottom: -200px;}
+100% {bottom: 0;}
+}
