@@ -21,15 +21,24 @@
     }
 
 
+
     .acciones {
         animation-name: inicio2;
         animation-duration: 1s;
         position: relative;
+        border-radius: 5px;
     }
 
-body {
+    .body1 {
     font-family: 'koulen', cursive;
+    background-image: url(../assets/img/avion4.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
+body    {
+    font-family: 'koulen', cursive;
+ }
 
 @keyframes inicio1 {
     0% {left: -200px;}
